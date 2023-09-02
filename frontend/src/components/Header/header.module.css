@@ -1,0 +1,59 @@
+.header{
+    background: beige;
+    padding: 0;
+    border-bottom: 2px solid brown;
+}
+
+.header a{
+    color: brown;
+}
+
+.header a:hover{
+    background:brown;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo{
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header ul a{
+    padding: 1rem;
+    display: inline-block;
+}
+
+.menu_container{
+    position: relative;
+
+}
+
+.menu{
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+    display: none;
+}
+
+.menu_container:hover .menu{
+    display: block;
+}
+
+.menu a{
+    width: 100%;
+    min-width: 8rem;
+}
+
